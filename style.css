@@ -5,15 +5,33 @@
 /*carousel*/
 .titulo{
     position: relative;
-    bottom: 300px;
+    bottom: 80px;
     text-align: center;
     font-size: 3rem;
 }
-.fab{
+.git{
     position: relative;
-    bottom: 250px;
-    font-size: 90px;
-    left: 240px;
+    bottom: 50px;
+    font-size: 60px;
+    right: 130px;
+}
+.insta{
+    position: relative;
+    bottom: 50px;
+    font-size: 60px;
+    right: 100px;
+}
+.lik{
+    position: relative;
+    bottom: 50px;
+    font-size: 60px;
+    left: 20px;
+}
+.face{
+    position: relative;
+    bottom: 50px;
+    font-size: 60px;
+    right: 80px;
 }
 /*img texto*/
 
@@ -50,4 +68,8 @@ hr{
     font-size: 35px;
     font-family: 'Caveat', cursive;
     color: white; 
+}
+/*RESPONSIVE*/
+@media (max-width:576px) {
+    
 }
