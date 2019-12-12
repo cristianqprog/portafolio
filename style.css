@@ -5,34 +5,17 @@
 /*carousel*/
 .titulo{
     position: relative;
-    bottom: 80px;
-    text-align: center;
-    font-size: 3rem;
+    bottom: 70px;
+    font-size: 50px;
 }
-.git{
+.redes{
     position: relative;
+    font-size: px;
+    font-size: 90px;
     bottom: 50px;
-    font-size: 60px;
-    right: 130px;
+    letter-spacing: 40px;
 }
-.insta{
-    position: relative;
-    bottom: 50px;
-    font-size: 60px;
-    right: 100px;
-}
-.lik{
-    position: relative;
-    bottom: 50px;
-    font-size: 60px;
-    left: 20px;
-}
-.face{
-    position: relative;
-    bottom: 50px;
-    font-size: 60px;
-    right: 80px;
-}
+
 /*img texto*/
 
 .image{
@@ -51,14 +34,7 @@ hr{
     margin-top: 0.5rem;
     font-h
 }
-@media (max-width:720px) {
-.image{
-	width: 150px;
-}
-.porta{
-	font-size: 19px;
-}	
-}
+
 /*texto presentacion*/
 .texto_present{
 	text-align: center;
@@ -70,6 +46,68 @@ hr{
     color: white; 
 }
 /*RESPONSIVE*/
-@media (max-width:576px) {
+@media (max-width: 600px) {
+.titulo{
     
+    position: relative;
+    top: 0.5px;
 }
+.redes{
+    font-size: 60px;
+    bottom: 2px;
+}
+.porta{
+        margin-top: 29px;
+    font-size: 45px;
+}
+.image{
+    width: 200px;
+}
+}
+@media (min-width: 600px) {
+.titulo{
+   
+    position: relative;
+    top: 0.5px;
+}
+.redes{
+    font-size: 60px;
+    bottom: 2px;
+}
+.porta{
+    margin-top: 29px;
+    font-size: 45px;
+}
+.image{
+    width: 250px;
+}
+@media (min-width: 768px) {
+.titulo{
+    position: relative;
+    top: 0.5px;
+}
+.redes{
+    font-size: 60px;
+    bottom: 2px;
+}
+}
+@media (min-width: 920px) {
+.titulo{
+    top: -35px;
+}
+.redes{
+    font-size: 70px;
+    top: -15px;
+}
+@media (min-width: 1200px) {
+.titulo{
+    position: relative;
+    top: -100px;
+}
+.redes{
+    font-size: 76px;
+    top: -60px;
+}
+
+
+
